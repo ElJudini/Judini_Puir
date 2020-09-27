@@ -8,9 +8,9 @@ political_decisions = {
 		allow = {
 			war = no
 			civilized = yes
-			state_n_government = 1	
+			state_n_government = 1
 		}
-		
+
 		effect = {
 			set_country_flag = modern_capital_in_the_east
 			prestige = 5
@@ -26,25 +26,25 @@ political_decisions = {
 			factor = 1
 		}
 	}
-	
+
 	iwakura_mission = {
 		potential = {
 			tag = JAP
 			NOT = { has_country_flag = sent_iwakura_mission }
 		}
-		
+
 		allow = {
 			war = no
 			civilized = yes
 			idealism = 1
 		}
-		
+
 		effect = {
 			set_country_flag = sent_iwakura_mission
 			prestige = 10
 			years_of_research = 3
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
@@ -57,7 +57,7 @@ political_decisions = {
 			civilized = yes
 			NOT = { has_country_flag = han_system_abolished }
 		}
-		
+
 		allow = {
 			war = no
 			ideological_thought = 1
@@ -69,7 +69,7 @@ political_decisions = {
 			owns = 1665
 			owns = 1673
 		}
-		
+
 		effect = {
 			set_country_flag = han_system_abolished
 			years_of_research = 1
@@ -119,7 +119,7 @@ political_decisions = {
 				}
 			}
 			set_country_flag = bonin_administration
-		}	
+		}
 	}
 	fukoku_kyohei = {
 		potential = {
@@ -131,7 +131,7 @@ political_decisions = {
 			has_country_flag = sent_iwakura_mission
 			civilized = yes
 			empiricism = 1
-		}		
+		}
 		effect = {
 			set_country_flag = fukoku_kyohei_enacted
 			tech_school = japanese_tech_school
@@ -198,5 +198,26 @@ political_decisions = {
 			ai_will_do = {
 				factor = 1
 			}
+	}
+
+	POPGROW_CIV_LATE_JAP = {
+   potential = {
+     tag = JAP
+		 NOT = { has_country_flag = popgrow_late_civ }
+	}
+   allow = {
+	 civilized = yes
+	 year = 1860
+	 }
+	effect = {
+  set_country_flag = popgrow_late_civ
+	add_country_modifier = {
+		name = popgrow_late_civ
+		duration = 3600
+	}
+	}
+	ai_will_do = {
+		factor = -1
+	}
 	}
 }

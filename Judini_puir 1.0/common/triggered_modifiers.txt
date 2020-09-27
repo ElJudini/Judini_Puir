@@ -216,10 +216,10 @@ player_unciv = {
 		NOT = { civilized = yes }
 		NOT = { year = 1846 }
 	}
-  global_population_growth = 0.025
-	mobilisation_size = 0.02
+	mobilisation_size = 0.03
 	icon = 9
 }
+
 Civ_early_game_popgrow = {
 	trigger = {
 		civilized = yes
@@ -228,6 +228,17 @@ Civ_early_game_popgrow = {
 		NOT = { year = 1846 }
 	}
   global_population_growth = 0.025
+	icon = 9
+}
+
+Civ_1900_game_taxbonus = {
+	trigger = {
+		civilized = yes
+		year = 1836
+		NOT = { civilized = no }
+		NOT = { year = 1900 }
+	}
+  tax_efficiency = 0.1
 	icon = 9
 }
 vassal_nation = {

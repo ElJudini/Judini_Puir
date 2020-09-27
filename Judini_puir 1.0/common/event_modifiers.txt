@@ -1153,3 +1153,8 @@ recently_selected_birthrate = {
 no_more_war_reperations = {
     icon = 2
 }
+### PER and JAP POP GROW LATE ###
+popgrow_late_civ = {
+  global_population_growth = 0.025
+	icon = 17
+}
