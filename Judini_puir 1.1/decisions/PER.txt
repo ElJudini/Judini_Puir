@@ -34,4 +34,24 @@ political_decisions = {
 			factor = 1
 		}
 	}
+	POPGROW_CIV_LATE_PER = {
+	 potential = {
+		 tag = PER
+		 NOT = { has_country_flag = popgrow_late_civ }
+	}
+	 allow = {
+	 civilized = yes
+	 year = 1862
+	 }
+	effect = {
+	set_country_flag = popgrow_late_civ
+	add_country_modifier = {
+		name = popgrow_late_civ
+		duration = 3600
+	}
+	}
+	ai_will_do = {
+		factor = 0
+	}
+	}
 }

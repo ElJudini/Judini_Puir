@@ -30,14 +30,14 @@
 1772;1756;sea;2781;0;Suez strait
 
 #
-# European Straits  
+# European Straits
 #
 254;271;sea;2737;0;Irish Strait
 324;348;sea;2706;0;Aland Strait #Uppsala to Aland #these were in V1
-334;372;sea;2711;0;Öresund
-335;374;sea;2710;0;Bornholmsfärjan
-348;345;sea;2706;0;Aland Strait #Aland to Turku 
-353;349;sea;2709;0;Öselsund
+334;372;sea;2711;0;ï¿½resund
+335;374;sea;2710;0;Bornholmsfï¿½rjan
+348;345;sea;2706;0;Aland Strait #Aland to Turku
+353;349;sea;2709;0;ï¿½selsund
 353;358;sea;2709;0;Strait of Riga
 372;373;sea;2711;0;Fyn-Sjaelland
 371;373;sea;2711;0;Fyn-Jylland
@@ -66,8 +66,9 @@
 #1084;1086;sea;2832;0;Tatar Straits#removed
 #1087;1643;sea;2831;0;La Perouse Strait#removed
 #1087;1643;sea;2839;0;La Perouse Strait#removed
+1632;1660;sea;2829;0;Corea Japan
 1162;1165;sea;2788;0;Bahrain Strait
-1168;1145;sea;2787;0;Straits of Hormuz
+1168;1145;land;2787;0;Straits of Hormuz
 1309;1322;sea;2794;0;Palk Strait #Ceylon-S India
 1310;1322;sea;2794;0;Palk Strait #Ceylon-S India
 1384;1402;sea;2814;0;Straits of Johore
@@ -184,7 +185,7 @@
 1;17;impassable;0;0;
 
 #
-# The canals  
+# The canals
 #
 2711;2721;canal;369;1;Kiel Canal
 2781;2769;canal;1755;2;Suez Canal
