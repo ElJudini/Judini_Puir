@@ -1,31 +1,32 @@
 political_decisions = {
-	establish_la_guardia_civil = {
-		potential = {
-			tag = SPA
-			OR = {
-				government = absolute_monarchy
-				government = prussian_constitutionalism
-				government = hms_government
-			}
-			NOT = {
-				has_country_flag = guardia_civil_established
-			}
+establish_la_guardia_civil = {
+	potential = {
+		tag = SPA
+		OR = {
+			government = absolute_monarchy
+			government = prussian_constitutionalism
+			government = hms_government
 		}
-		allow = {
-			NOT = {
-				num_of_revolts = 1
-			}
-
-		}
-		effect = {
-		add_accepted_culture = portuguese
-			add_country_modifier = {
-				name = la_guardia_civil
-				duration = -1
-			}
-			set_country_flag = guardia_civil_established
+		NOT = {
+			has_country_flag = guardia_civil_established
 		}
 	}
+	allow = {
+		NOT = {
+			num_of_revolts = 1
+		}
+
+	}
+	effect = {
+	add_accepted_culture = portuguese
+	country_event = { id = 9999999 days = 0}
+		add_country_modifier = {
+			name = la_guardia_civil
+			duration = -1
+		}
+		set_country_flag = guardia_civil_established
+	}
+}
 
 	confiscations_of_mendizabal = {
 		potential = {

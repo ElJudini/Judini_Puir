@@ -707,8 +707,8 @@ the_yard = {
 
 #### SPA - Spain ####
 la_guardia_civil = {
-	tax_efficiency = 0.025
-	global_population_growth = 0.002
+	tax_efficiency = 0.04
+	global_population_growth = 0.004
 	icon = 1
 }
 
@@ -1157,4 +1157,11 @@ no_more_war_reperations = {
 popgrow_late_civ = {
   global_population_growth = 0.025
 	icon = 17
+}
+### Juidini ###
+america_unida = {
+global_population_growth = 0.006
+assimilation_rate = 1
+immigrant_attract = 1
+icon = 17
 }
