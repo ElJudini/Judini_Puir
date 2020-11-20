@@ -1,0 +1,54 @@
+country_event = {
+	id = 9999999
+	title = "Iberia"
+	desc = "Iberia"
+	picture = "treaty"
+
+	is_triggered_only = yes
+  immediate = {
+  518 = {
+     add_core = SPA
+   }
+   519 = {
+     add_core = SPA
+   }
+   520 = {
+     add_core = SPA
+   }
+   521 = {
+     add_core = SPA
+   }
+   522 = {
+     add_core = SPA
+   }
+   523 = {
+     add_core = SPA
+   }
+   524 = {
+     add_core = SPA
+   }
+   525 = {
+     add_core = SPA
+   }
+   526 = {
+     add_core = SPA
+   }
+   527 = {
+     add_core = SPA
+   }
+   2135 = {
+     add_core = SPA
+   }
+   2134 = {
+     add_core = SPA
+   }
+		}
+
+
+ option = {
+   name = "Iberia"
+ }
+
+
+	}
+	

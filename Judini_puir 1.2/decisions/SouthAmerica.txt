@@ -278,7 +278,7 @@ political_decisions = {
 			aeronautics = 1
 		}
 		effect = {
-			research_points = 100
+			research_points = 10000
 			soldiers = { consciousness = -1 }
 			officers = { consciousness = -1 }
 			leadership = 8
@@ -374,6 +374,9 @@ tag = PRG
  }
  }
  allow = {
+ NOT = {
+	 has_country_flag = america_unida_established
+ }
  war = no
  owns = 2348
  owns = 2447
@@ -395,6 +398,12 @@ tag = PRG
 			 add_accepted_culture = brazilian
 			 add_accepted_culture = afro_caribbean
 badboy = 15
+add_country_modifier = {
+	name = america_unida
+	duration = -1
+}
+set_country_flag = america_unida_established
+
  }
  }
 }
