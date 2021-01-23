@@ -712,6 +712,12 @@ la_guardia_civil = {
 	icon = 1
 }
 
+#### POR - Portugal ####
+civil = {
+	tax_efficiency = 0.04
+	global_population_growth = 0.004
+	icon = 1
+}
 #### FRA - France ####
 the_french_foreign_legion = {
 	prestige = 0.01
@@ -740,12 +746,16 @@ universal_postal_union = {
 #### SWE - Sweden ####
 folkis_educates = {
 	research_points_modifier = 0.10
-  global_population_growth = 0.002
+        global_population_growth = 0.004
+        rgo_throughput = 0.15
+        factory_throughput = 0.10
+        global_immigrant_attract = 0.40
+	global_assimilation_rate = 0.1
 	icon = 5
 }
 
 motala_verkstad = {
-	local_factory_throughput = 0.10
+	local_rgo_throughput = 0.10
 	icon = 13
 }
 
@@ -1164,4 +1174,11 @@ global_population_growth = 0.006
 assimilation_rate = 1
 immigrant_attract = 1
 icon = 17
+}
+
+La_Guardia_Regional = {
+global_population_growth = 0.002
+assimilation_rate = 0.01
+immigrant_attract = 0.25
+mobilisation_size = 0.10
 }
