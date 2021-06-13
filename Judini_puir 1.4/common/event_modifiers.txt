@@ -570,10 +570,11 @@ ruhr_boom = {
 }
 
 prussian_general_staff = {
-	org_regain = 0.1
-	land_organisation = 0.05
+	org_regain = 0.2
+	land_organisation = 0.15
 	land_unit_start_experience = 0.5
-	supply_consumption = -0.05
+	supply_consumption = -0.15
+	global_population_growth = 0.03
 	icon = 15
 }
 
