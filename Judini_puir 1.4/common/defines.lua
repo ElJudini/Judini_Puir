@@ -7,8 +7,8 @@ country = {
 	YEARS_OF_NATIONALISM 	= 20,   -- Years of Nationalism
 	MONTHS_UNTIL_BROKEN 		= 3,    -- OBSOLETE! (Months until rebel held capital results in broken country.)
 	REBEL_ACCEPTANCE_MONTHS = 60,
-	BASE_COUNTRY_TAX_EFFICIENCY = 0.2, -- Basic efficiency for taxes without 'crats and tech
-	BASE_COUNTRY_ADMIN_EFFICIENCY = 0.2,
+	BASE_COUNTRY_TAX_EFFICIENCY = 0.3, -- Basic efficiency for taxes without 'crats and tech
+	BASE_COUNTRY_ADMIN_EFFICIENCY = 0.3,
 	GOLD_TO_CASH_RATE = 3.5, -- Amount of money generated per gold unit
 	GOLD_TO_WORKER_PAY_RATE = 1.0, -- Multiplier for how much money gold pays to pops
 	GREAT_NATIONS_COUNT = 8,
@@ -82,10 +82,10 @@ country = {
 	COLONIZATION_INFLUENCE_COST = 20,
 	COLONIZATION_EXTRA_GUARD_COST = 5,
 	COLONIZATION_RELEASE_DOMINION_COST = 30,
-	COLONIZATION_CREATE_STATE_COST = 300,
+	COLONIZATION_CREATE_STATE_COST = 1,
 	COLONIZATION_CREATE_PROTECTORATE_COST = 5,
 	COLONIZATION_CREATE_COLONY_COST = 4, -- per province
-	COLONIZATION_COLONY_STATE_DISTANCE = 400,
+	COLONIZATION_COLONY_STATE_DISTANCE = 1,
 	COLONIZATION_INFLUENCE_TEMPERATURE_PER_DAY = 0.08,
 	COLONIZATION_INFLUENCE_TEMPERATURE_PER_LEVEL = 0.005,
 	PARTY_LOYALTY_HIT_ON_WAR_LOSS = 0.5, -- Drops the ruling party loyalty if war is lost.
@@ -106,14 +106,14 @@ economy = {
 	PROVINCE_SIZE_DIVIDER = 50,
 	CAPITALIST_BUILD_FACTORY_STATE_EMPLOYMENT_PERCENT = 0.7, -- Capis don't build factories if less than this percent is employed in existing factories
 	GOODS_FOCUS_SWAP_CHANCE = 0, -- Percent increased chance that artisan wants to change goods independantly of how well he is doing presently
-	NUM_CLOSED_FACTORIES_PER_STATE_LASSIEZ_FAIRE = 1, -- Number of closed factories allowed per state under Lassiez Faire
-	MIN_NUM_FACTORIES_PER_STATE_BEFORE_DELETING_LASSIEZ_FAIRE = 2, -- Min number of factories per state before starting to delete under Lassiez Faire
+	NUM_CLOSED_FACTORIES_PER_STATE_LASSIEZ_FAIRE = 0, -- Number of closed factories allowed per state under Lassiez Faire
+	MIN_NUM_FACTORIES_PER_STATE_BEFORE_DELETING_LASSIEZ_FAIRE = 8, -- Min number of factories per state before starting to delete under Lassiez Faire
 	BANKRUPCY_DURATION = 0, -- Years til a bancrupcy clears all loans
-	SECOND_RANK_BASE_SHARE_FACTOR = 0.5,
-	CIV_BASE_SHARE_FACTOR = 0.75,
+	SECOND_RANK_BASE_SHARE_FACTOR = 1,
+	CIV_BASE_SHARE_FACTOR = 1,
 	UNCIV_BASE_SHARE_FACTOR = 1,
 	FACTORY_PAYCHECKS_LEFTOVER_FACTOR = 1, -- % of how much we pay to the pops and capitalists, from the leftovers.
-	MAX_FACTORY_MONEY_SAVE = 5000,	-- how much money is stored maximum in a factory.
+	MAX_FACTORY_MONEY_SAVE = 15000,	-- how much money is stored maximum in a factory.
 	SMALL_DEBT_LIMIT = 40000,
 	FACTORY_UPGRADE_EMPLOYEE_FACTOR = 0.50, -- determines how close to the employee limit we need to be before "upgrade all" will upgrade/expand a given factory (1 = 100%).
 	RGO_SUPPLY_DEMAND_FACTOR_HIRE_HI = 0.5,	-- how fast pops are Hired when there is a high demand
@@ -623,7 +623,7 @@ pops = {
 	LITERACY_CHANGE_SPEED = 0.08,
 
 
-	ASSIMILATION_SCALE = 0.004,
+	ASSIMILATION_SCALE = 0.008,
 	CONVERSION_SCALE = 0.01,
 	IMMIGRATION_SCALE = 0.004,
 
@@ -662,7 +662,7 @@ pops = {
 
 	POP_SAVINGS = 0.03,
 
-	STATE_CREATION_ADMIN_LIMIT = 0.01,
+	STATE_CREATION_ADMIN_LIMIT = 0.005,
 	MIL_TO_JOIN_REBEL = 7, -- Rebels over this will join a faction
 	MIL_TO_JOIN_RISING = 8, -- Rebels over this will join a general rising
 	MIL_TO_AUTORISE = 9, -- Rebels over this rise no matter what

@@ -27,7 +27,7 @@
 #
 2036;2048;sea;2901;0;Zanzibar Strait
 2123;2124;sea;2902;0;Comoros-Mayotte
-1772;1756;sea;2781;0;Suez strait
+1772;1757;sea;2781;0;Suez strait
 
 #
 # European Straits
@@ -95,6 +95,8 @@
 1664;1666;sea;2843;0;Matsuyama Strait
 1667;1659;sea;2843;0;Setto Strait
 1661;1637;sea;2829;0;Tsushima Strait #Nagasaki to Cheju
+2468;2516;land;2866;0;AST2
+2488;2529;sea;2860;0;AST2
 #Philippines
 1455;1458;sea;2848;0;Isla Verde passages #Manila to Mindoro
 1458;1459;sea;2848;0;Mindoro Bay #Mindoro to Palawan

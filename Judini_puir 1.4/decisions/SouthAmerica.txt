@@ -399,11 +399,22 @@ tag = PBA
 			 add_accepted_culture = north_andean
 			 add_accepted_culture = brazilian
 			 add_accepted_culture = afro_caribbean
-badboy = 15
+badboy = 40
 add_country_modifier = {
 	name = america_unida
 	duration = -1
 }
+inherit = CLM
+inherit = GCO
+inherit = BRZ
+inherit = CHL
+inherit = PEU
+inherit = ARG
+inherit = PRG
+inherit = PBA
+inherit = ECU
+inherit = VNZ
+
 set_country_flag = america_unida_established
 
  }
