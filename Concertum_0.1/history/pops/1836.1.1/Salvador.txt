@@ -1,0 +1,91 @@
+#Salvador Region (416000)
+#Ruled by Central America 1836
+#San Salvador (260000/65000 POPS)
+2191 = {
+	aristocrats = {
+		culture = central_american
+		religion = catholic
+		size = 2850
+		militancy = 9
+	}
+
+	bureaucrats = {
+		culture = central_american
+		religion = catholic
+		size = 300
+		militancy = 9
+	}
+
+	officers = {
+		culture = central_american
+		religion = catholic
+		size = 250
+		militancy = 9
+	}
+
+	clergymen = {
+		culture = central_american
+		religion = catholic
+		size = 1300
+		militancy = 9
+	}
+
+	artisans = {
+		culture = central_american
+		religion = catholic
+		size = 6500
+		militancy = 9
+	}
+
+	soldiers = {
+		culture = central_american
+		religion = catholic
+		size = 2200
+		militancy = 9
+	}
+
+	farmers = {
+		culture = central_american
+		religion = catholic
+		size = 116700
+		militancy = 9
+	}
+}
+#San Miguel (156000/44000 POPS)
+2192 = {
+	aristocrats = {
+		culture = central_american
+		religion = catholic
+		size = 1900
+		militancy = 9
+	}
+
+	clergymen = {
+		culture = central_american
+		religion = catholic
+		size = 900
+		militancy = 9
+	}
+
+	artisans = {
+		culture = central_american
+		religion = catholic
+		size = 4400
+		militancy = 9
+	}
+
+	soldiers = {
+		culture = central_american
+		religion = catholic
+		size = 900
+		militancy = 9
+	}
+
+	farmers = {
+		culture = central_american
+		religion = catholic
+		size = 79900
+		militancy = 9
+	}
+
+}

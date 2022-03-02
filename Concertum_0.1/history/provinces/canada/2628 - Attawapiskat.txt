@@ -1,0 +1,10 @@
+owner = CAN
+
+controller = CAN
+
+add_core = CAN
+add_core = RPL
+trade_goods = fish
+life_rating = 25
+colonial = 0
+
