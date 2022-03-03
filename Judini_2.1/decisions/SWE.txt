@@ -1,0 +1,278 @@
+political_decisions = {
+	pass_folkskolereformen = {
+		potential = {
+			OR = {
+				tag = SWE
+				AND = {
+					tag = SCA
+					primary_culture = swedish
+				}
+			}
+			NOT = {
+				has_country_modifier = folkis_educates
+			}
+		}
+
+		allow = {
+			ideological_thought = 1
+		}
+
+		effect = {
+			add_country_modifier = {
+				name = folkis_educates
+				duration = -1
+			}
+		}
+	}
+
+	the_vega_expedition = {
+		potential = {
+			OR = {
+				tag = SWE
+				AND = {
+					tag = SCA
+					primary_culture = swedish
+				}
+			}
+			has_global_flag = suez_canal_built
+			NOT = {
+				has_country_flag = the_vega_expedition_went
+			}
+		}
+
+		allow = {
+			biologism = 1
+			iron_steamers = 1
+		}
+
+		effect = {
+			prestige = 5
+			years_of_research = 0.05
+			badboy = -1
+			set_country_flag = the_vega_expedition_went
+		}
+	}
+
+	expand_motala_verkstad = {
+		potential = {
+			OR = {
+				tag = SWE
+				AND = {
+					tag = SCA
+					primary_culture = swedish
+				}
+			}
+			owns = 325
+			NOT = {
+				has_global_flag = motala_verkstad_expanded
+			}
+		}
+
+		allow = {
+			mechanical_production = 1
+			325 = {
+				state_scope = {
+					has_building = machine_parts_factory
+				}
+			}
+		}
+
+		effect = {
+			325 = {
+				add_province_modifier = {
+					name = motala_verkstad
+					duration = -1
+				}
+			}
+			prestige = 5
+			set_global_flag = motala_verkstad_expanded
+		}
+	}
+
+	court_yard_speech = {
+		potential = {
+			OR = {
+				tag = SWE
+				AND = {
+					tag = SCA
+					primary_culture = swedish
+				}
+			}
+			government = hms_government
+			OR = {
+				vote_franschise = wealth_weighted_voting
+				vote_franschise = wealth_voting
+			}
+			NOT = {
+				has_country_flag = court_yard_speech_held
+			}
+		}
+
+		allow = {
+			OR = {
+				war_policy = pacifism
+				war_policy = anti_military
+			}
+			OR = {
+				pro_military = 10
+				jingoism = 10
+			}
+		}
+
+		effect = {
+			ruling_party_ideology = conservative
+			any_pop = {
+				militancy = -0.5
+
+			}
+			set_country_flag = court_yard_speech_held
+		}
+	}
+	reclaim_baltic_empire = {
+		potential = {
+		tag = SCA
+
+			NOT = { has_country_flag = finland_abandoned }
+			NOT = { has_country_flag = stormaktstiden }
+
+		}
+
+		allow = {
+			war = no
+			owns = 336 #Oulu - Northern Finland
+			owns = 345 #Turku - Southern Finland
+		}
+
+		effect = {
+			badboy = 15
+			prestige = 50
+			set_country_flag = stormaktstiden
+			add_accepted_culture = estonian
+			add_accepted_culture = latvian
+			add_accepted_culture = lituanian
+			add_accepted_culture = north_german
+			RUS_994 = {		#Ingria
+				add_core = SCA
+
+			}
+			RUS_349 = {		#Estonia
+				add_core = SCA
+			}
+			RUS_354 = {		#Latvia
+				add_core = SCA
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				is_greater_power = no
+			}
+
+		}
+	}
+
+	reclaim_north_empire = {
+		potential = {
+		tag = SCA
+
+			NOT = { has_country_flag = finland_abandoned }
+			NOT = { has_country_flag = stormaktstiden }
+
+		}
+
+		allow = {
+			war = no
+			owns = 336 #Oulu - Northern Finland
+			owns = 345 #Turku - Southern Finland
+		}
+
+		effect = {
+			badboy = 15
+			prestige = 50
+			set_country_flag = stormaktstiden
+			add_accepted_culture = estonian
+			add_accepted_culture = latvian
+			add_accepted_culture = lituanian
+			add_accepted_culture = russian
+			RUS_994 = {		#Ingria
+				add_core = SCA
+
+			}
+			RUS_349 = {		#Estonia
+				add_core = SCA
+			}
+			RUS_354 = {		#Latvia
+				add_core = SCA
+			}
+
+			change_tag = SCR
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				is_greater_power = no
+			}
+
+		}
+	}
+
+	reclaim_viking_empire = {
+		potential = {
+		tag = SCA
+
+			NOT = { has_country_flag = finland_abandoned }
+			NOT = { has_country_flag = stormaktstiden }
+
+		}
+
+		allow = {
+			war = no
+		  owns = 269
+		  owns = 266
+		}
+
+		effect = {
+			badboy = 15
+			prestige = 50
+			set_country_flag = stormaktstiden
+			add_accepted_culture = british
+			add_accepted_culture = irish
+
+		  ENG_271 = {
+				add_core = SCA
+
+			}
+		 ENG_266	 = {
+				add_core = SCA
+			}
+
+    change_tag = SCV
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				is_greater_power = no
+			}
+
+		}
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

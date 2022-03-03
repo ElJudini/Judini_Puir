@@ -1,0 +1,57 @@
+political_decisions = {
+	reclaim_herat = {
+		picture = form_the_ikhwan
+		alert = yes
+		potential = {
+			tag = PER
+			is_vassal = no
+			NOT = { owns = 1212 }
+			NOT = { has_country_flag = herat }
+			war = no
+		}
+		allow = {
+			military_score = 50
+		}
+		effect = {
+			1212 = {
+				add_core = PER
+			}
+			prestige = 10
+			random_country = {
+				limit = { owns = 1212 }
+				relation = {
+					who = PER
+					value = -50
+				}
+			}
+			relation = {
+				who = ENG
+				value = -50
+			}
+			set_country_flag = herat
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	POPGROW_CIV_LATE_PER = {
+	 potential = {
+		 tag = PER
+		 NOT = { has_country_flag = popgrow_late_civ }
+	}
+	 allow = {
+	 civilized = yes
+	 year = 1862
+	 }
+	effect = {
+	set_country_flag = popgrow_late_civ
+	add_country_modifier = {
+		name = popgrow_late_civ
+		duration = 3600
+	}
+	}
+	ai_will_do = {
+		factor = 0
+	}
+	}
+}

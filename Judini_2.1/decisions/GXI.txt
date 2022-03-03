@@ -1,0 +1,42 @@
+political_decisions {
+
+hacete_hombre = {
+picture = switch_to_fraternity
+potential = {
+or = {
+ tag = GXI
+ tag = MCK
+ tag = YNN
+ tag = MGL
+}
+NOT = {
+  has_country_flag = HH_A
+}
+}
+allow = {
+ ai = no
+}
+effect = {
+CHI = { all_core = { add_core = MCK } }
+CHI = { all_core = { add_core = GXI } }
+CHI = { all_core = { add_core = YNN } }
+CHI = { all_core = { add_core = MGL } }
+
+set_country_flag = HH_A
+
+add_country_modifier = {
+  name = HH1
+  duration = 3600
+}
+
+add_country_modifier = {
+  name = HH2
+  duration = 18250
+}
+}
+
+
+
+}
+
+}
