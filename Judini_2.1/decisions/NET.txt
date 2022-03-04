@@ -127,29 +127,28 @@ political_decisions = {
 		}
 	}
 	paises_bajos_unificacion = {
-	potential = {
-	NOT = {
-		has_country_flag = paises_bajos_established
+		potential = {
+			NOT = {
+				has_country_flag = paises_bajos_established
+	
+			}
+			tag = NET
 
-	}
-tag = NET
-
-	}
-	allow = {
-	NOT = {
-		has_country_flag = paises_bajos_established
-	}
-prestige = 1
-	}
-	effect = {
-	inherit = BEL
-	prestige = 50
-	badboy = 20
- add_country_modifier = {
-	 name = paises_bajos
-	 duration = -1
- }
- set_country_flag = paises_bajos_established
-
-	}
+		}
+		allow = {
+			NOT = {
+				has_country_flag = paises_bajos_established
+			}
+			prestige = 1
+		}
+		effect = {
+			inherit = BEL
+			prestige = 50
+			badboy = 20
+			add_country_modifier = {
+				name = paises_bajos
+				duration = -1
+			}
+			set_country_flag = paises_bajos_established
+		}
 	}
