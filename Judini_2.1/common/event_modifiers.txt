@@ -1185,7 +1185,6 @@ immigrant_attract = 0.25
 mobilisation_size = 0.10
 }
 
-
 paises_bajos = {
 global_population_growth = 0.004
 assimilation_rate = 0.5
@@ -1194,9 +1193,11 @@ assimilation_rate = 0.5
 buff_rusia = {
 global_population_growth = 0.01
 }
+
 HH1 = {
 mobilisation_size = 0.5
 }
+
 HH2 = {
 mobilisation_size = 0.05
 education_efficiency_modifier = 0.5
@@ -1208,8 +1209,6 @@ global_population_growth = 0.5
 
 nerf1 = {
 prestige = -50
-
-
 }
 
 buff1 = {

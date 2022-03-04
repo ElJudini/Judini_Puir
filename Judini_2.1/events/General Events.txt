@@ -1,27 +1,4 @@
 #If you create a country specific event make sure you add the tag to the list of tags to not get the broad event
-country_event = {
-id = 9999999
-allow_multiple_instances = no
-trigger = {
-date = 1836.01.01
-ai = no
-not = {has_country_flag = stonks}
-}
-mean_time_to_happen = {
-	days = 1
-}
-title = "Dinero Vieja"
-desc = "Stonks"
-immediate = {
-	money = 1000000
-	set_country_flag = stonks
-}
-option = {
-	name = "Your Country Needs HIM"
-}
-}
-
-
 
 country_event = {
 	id = 600000
@@ -128,7 +105,7 @@ country_event = {
 		days = 1
 	}
 	title = "A New General Arrives"
-	desc = "A French soldier, military theorist and the Allied G�n�ralissime during the First World War"
+	desc = "A French soldier and military theorist during the First World War"
 	immediate = {
 		define_general = {
 			name = "Ferdinand Foch"
