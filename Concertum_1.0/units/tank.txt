@@ -10,27 +10,27 @@ tank = {
 	
 	#Core Abilities
 	priority = 50
-	max_strength = 3
+	max_strength = 5
 	default_organisation = 40
 	maximum_speed = 5.00 #was 4.00
 	weighted_value = 10.0
 
 
 	#Building Costs
-	build_time = 120
+	build_time = 25
 	build_cost = {
-		barrels = 10 #10
-		artillery = 10
-		canned_food = 10
-		fuel = 5
+		barrels = 20
+		artillery = 20
+		canned_food = 20
+		fuel = 10
 	}
 	
 	supply_consumption = 1.0
-	supply_cost = {            #total cost 28.25
-		barrels = 0.2      #21
-		artillery = 0.2    #3
-		canned_food = 0.05 #0.5
-		fuel = 0.25        #3.75
+	supply_cost = {
+		barrels = 0.4
+		artillery = 0.4
+		canned_food = 0.10
+		fuel = 0.5
 	}
 	
 

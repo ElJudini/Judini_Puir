@@ -10,29 +10,28 @@ plane = {
 	
 	#Core Abilities
 	priority = 45
-	max_strength = 3
+	max_strength = 5
 	default_organisation = 30
 	maximum_speed = 5.00
 	weighted_value = 10.0
 
 
 	#Building Costs
-	build_time = 120
+	build_time = 25
 	build_cost = {
-		aeroplanes = 10 #10
-		small_arms = 20 #10
-		canned_food = 10
-		wine = 10
-		#fuel = 5
+		aeroplanes = 20
+		small_arms = 40
+		canned_food = 20
+		wine = 20
 	}
 	
 	supply_consumption = 1.0
-	supply_cost = {		    #total cost 19
-		aeroplanes = 0.2    #14
-		small_arms = 0.02   #0.5
-		ammunition = 0.05  #0.25		
-		canned_food = 0.05  #0.5
-		fuel = 0.25	    #3.75
+	supply_cost = {
+		aeroplanes = 0.4
+		small_arms = 0.04
+		ammunition = 0.10		
+		canned_food = 0.10
+		fuel = 0.5
 	}
 	
 

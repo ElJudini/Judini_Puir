@@ -742,10 +742,8 @@ promote_to =
 		modifier = {
 			factor = -100
 			state_scope = {
-				total_pops = 1000000
-				soldiers = 0.04 
+				soldiers = 0.05 
 			}
-			NOT = { revanchism = 0.05 }
 		}
 		
 		modifier = {

@@ -13,24 +13,23 @@ cavalry = {
 
 	#Core Abilities
 	priority = 25
-	max_strength = 3
+	max_strength = 5
 	default_organisation = 20
 	maximum_speed = 5.00
 	weighted_value = 4.0
 
 
 	#Building Costs
-	build_time = 120
+	build_time = 10
 	build_cost = {
-		grain = 50
-		cattle = 20
-		#wine = 10
+		grain = 80
+		cattle = 40
 	}
 	
 	supply_consumption = 1.0
 	supply_cost = {
-		grain = 0.2
-		cattle = 0.1
+		grain = 0.35
+		cattle = 0.15
 	}
 	
 
