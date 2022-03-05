@@ -200,37 +200,32 @@ political_decisions = {
 			}
 	}
 
-procaim_the_COP = {
+	procaim_the_COP = {
+		picture = dreams_of_empire
 		potential = {
-		tag = JAP
-
+			tag = JAP
 			NOT = { has_country_flag = COP }
 			NOT = { accepted_culture = manchu }
-
-
 		}
 
 		allow = {
 			war = no
-	                prestige = 20
-
-
+			prestige = 20
 		}
 
 		effect = {
 			badboy = 10
 			prestige = 50
-                        money = 1000000
-			set_country_flag = CAP
+			money = 1000000
+			set_country_flag = COP
 			add_accepted_culture = korean
 			add_country_modifier = {
-  			name = HH2
- 	 		duration = 18250
-}
+				name = HH2
+				duration = 18250
+			}
 
 		  	KOR_1624 = {
 				add_core = JAP
-
 			}
 
 			KOR_1635 = {
@@ -245,8 +240,6 @@ procaim_the_COP = {
 				add_core = JAP
 
 			}
-
-
 		}
 		ai_will_do = {
 			factor = 1
@@ -254,12 +247,6 @@ procaim_the_COP = {
 				factor = 0
 				is_greater_power = no
 			}
-
 		}
-
-
-
-
-
-
+	}
 }

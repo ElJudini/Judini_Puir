@@ -5,7 +5,7 @@ political_decisions = {
 			NOT = { has_country_modifier = developing_bioweapons }
 			NOT = { has_country_modifier = experimental_bioweapon }
 			rank = 16
-			year = 1975
+			year = 1925
 			ai = no
 			}
 		

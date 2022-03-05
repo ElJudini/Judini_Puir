@@ -9,14 +9,14 @@ artillery = {
 
 	#Core Abilities
 	priority = 20
-	max_strength = 5
+	max_strength = 3
 	default_organisation = 30
 	maximum_speed = 4.00
 	weighted_value = 5.0
 
 
 	#Building Costs
-	build_time = 10
+	build_time = 120
 	build_cost = {
 		artillery = 50 #10
 		canned_food = 10

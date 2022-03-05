@@ -2,15 +2,13 @@
 
 # Special countries...
 REB 	= 	"countries/rebels.txt"
-
-#	New Nations
-SDU = "countries/Confederacion Uruguaya de Latinoamerica.txt"
-BLA = "countries/Imperio de Los Balcanes.txt"	
-NGE = "countries/America del Norte.txt"
-MSU = "countries/Imperio Romonaco.txt"
-DUA = "countries/Monarquia Dual.txt"
-SCV = "countries/Imperio Vikingo.txt"
-SCR = "countries/Nuevo Imperio EslavicoVikingo.txt" 
+ZOM		= "countries/Zombieland.txt"
+Z01 	= "countries/Zombeurope.txt"
+Z02		= "countries/Zombasia.txt"
+Z03		= "countries/Zombafrica.txt"
+Z04		= "countries/North_Zomberica.txt"
+Z05		= "countries/South_Zomberica.txt"
+Z06		= "countries/Zombeania.txt"
 
 # Common Great Powers
 ENG		= "countries/United Kingdom.txt"
@@ -355,3 +353,12 @@ D50		= "countries/D50.txt"
 
 #temporary tag for the purpose of transferring colonies
 CIV 		= "countries/Civilized nation.txt"
+
+#	Judini
+SDU = "countries/Confederacion Uruguaya de Latinoamerica.txt"
+BLA = "countries/Imperio de Los Balcanes.txt"	
+NGE = "countries/America del Norte.txt"
+MSU = "countries/Imperio Romonaco.txt"
+DUA = "countries/Monarquia Dual.txt"
+SCV = "countries/Imperio Vikingo.txt"
+SCR = "countries/Nuevo Imperio EslavicoVikingo.txt" 

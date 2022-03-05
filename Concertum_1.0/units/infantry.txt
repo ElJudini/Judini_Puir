@@ -9,14 +9,14 @@ infantry = {
 	
 	#Core Abilities
 	priority = 10
-	max_strength = 5
+	max_strength = 3
 	default_organisation = 30
 	maximum_speed = 4.00
 	weighted_value = 2.0
 
 
 	#Building Costs
-	build_time = 10
+	build_time = 90
 	build_cost = {
 		small_arms = 75 #10
 		canned_food = 10

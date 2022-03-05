@@ -20,6 +20,7 @@ political_decisions = {
 			factor = 1
 		}
 	}
+	
 	enact_meiji_constitution1 = {
 		potential = {
 			tag = JAP
@@ -70,6 +71,7 @@ political_decisions = {
 			factor = 1
 		}
 	}
+	
 	enact_meiji_constitution2 = {
 		potential = {
 			tag = JAP
@@ -112,6 +114,7 @@ political_decisions = {
 			factor = 1
 		}
 	}
+
 	enact_meiji_constitution3 = {
 		potential = {
 			tag = JAP
@@ -161,6 +164,7 @@ political_decisions = {
 			factor = 1
 		}
 	}
+
 	the_dominion_lands_act = {
 		potential = {
 			tag = CAN
@@ -184,6 +188,7 @@ political_decisions = {
 			factor = 1
 		}
 	}
+
 	pass_the_bna_act = {
 		potential = {
 			tag = ENG
@@ -232,6 +237,7 @@ political_decisions = {
 			factor = 1
 		}
 	}
+
 	commonwealth_of_australia_act = {
 		potential = {
 			tag = ENG
@@ -286,6 +292,7 @@ political_decisions = {
 			}
 		}
 	}
+
 	nwz_proclamation = {
 			potential = {
 				tag = ENG
@@ -330,6 +337,7 @@ political_decisions = {
 				factor = 1
 			}
 	}
+
 	the_union_of_south_africa = {
 			potential = {
 				tag = ENG
@@ -388,6 +396,7 @@ political_decisions = {
 				}
 			}
 	}
+
 	establish_beiyang_fleet = {
 			potential = {
 				tag = CHI
@@ -448,6 +457,7 @@ political_decisions = {
 			factor = 1
 		}
 	}
+
 	greece_capital_change = {
 		potential = {
 			tag = GRE
@@ -500,6 +510,7 @@ political_decisions = {
 			factor = 1
 		}
 	}
+
 	enosis_with_crete = {
 		picture = map_crete
 		potential = {
@@ -524,6 +535,7 @@ political_decisions = {
 			set_country_flag = enosis_with_crete
 		}
 	}
+
 	call_berne_conference = {
 		picture = postal_union
 		potential = {
@@ -581,6 +593,7 @@ political_decisions = {
 			factor = 1
 		}
 	}
+
 	the_regenerador = {
 		potential = {
 			tag = POR
@@ -633,6 +646,7 @@ political_decisions = {
 			factor = 1
 		}
 	}
+
 	instituto_industrial_de_lisboa = {
 		potential = {
 			has_country_flag = portuguese_regeneration
@@ -657,6 +671,7 @@ political_decisions = {
 			factor = 1
 		}
 	}
+
 	escola_industrial_do_porto = {
 		potential = {
 			has_country_flag = portuguese_regeneration
@@ -679,6 +694,7 @@ political_decisions = {
 			factor = 1
 		}
 	}
+
 	sign_bowring_treaty = {
 		potential = {
 			tag = SIA
@@ -722,6 +738,7 @@ political_decisions = {
 			factor = 1
 		}
 	}
+
 	revive_mesopotamian_claims = {
 		potential = {
 			tag = PER
@@ -764,6 +781,7 @@ political_decisions = {
 			}
 		}
 	}
+
 	ottoman_bank = {
 		potential = {
 			tag = TUR
@@ -817,6 +835,7 @@ political_decisions = {
 			factor = 1
 		}
 	}
+
 	shelter_revolutionaries = {
 		potential = {
 			tag = TUR
@@ -872,6 +891,7 @@ political_decisions = {
 			factor = 1
 		}
 	}
+
 	restore_istanbul = {
 		picture = greece_capital_change
 		potential = {
@@ -923,6 +943,7 @@ political_decisions = {
 			factor = 1
 		}
 	}
+
 	equatoria_expedition = {
 		potential = {
 			tag = EGY
@@ -991,6 +1012,7 @@ political_decisions = {
 			factor = 1
 		}
 	}
+
 	conquest_of_darfur = {
 		potential = {
 			tag = EGY

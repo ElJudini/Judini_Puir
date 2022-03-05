@@ -375,7 +375,7 @@ political_decisions = {
 			inherit = DEN
 			add_country_modifier = {
 				name = bono_stonks
-				duration = 360
+				duration = 180
 			}
 			any_country = {
 				limit = {

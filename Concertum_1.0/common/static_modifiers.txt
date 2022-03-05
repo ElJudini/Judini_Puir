@@ -72,7 +72,7 @@ overseas = {
 	mine_rgo_size = 0.3
 	assimilation_rate = -0.5
 	pop_consciousness_modifier = -0.01
-	population_growth = -0.001 #0.01%
+	population_growth = -0.0001 #0.01%
 	supply_limit = -1
 }
 
@@ -92,8 +92,8 @@ sea_zone = {
 }
 
 land_province = {
-	max_attrition = 5			#Maximum Attrition is 5
-	supply_limit = 14
+	max_attrition = 6			#Maximum Attrition is 5
+	supply_limit = 6
 }
 
 blockaded =
@@ -107,7 +107,7 @@ blockaded =
 }
 
 no_adjacent_controlled = {
-	supply_limit = -6
+	supply_limit = -3
 }
 
 
@@ -131,7 +131,7 @@ nationalism = {
 infrastructure = {
 	local_factory_throughput = 1		#each % of infra boost throughput 1%
 	local_rgo_output = 1			#each % of infra boost throughput 1%
-	supply_limit = 6
+	supply_limit = 4
 }
 
 ##########################################################################
@@ -144,14 +144,16 @@ base_values = {
 
 war = {
 	max_war_exhaustion = 100			#base max at war.
+	#supply_consumption = -0.5
 	#war_exhaustion = 0.1
-	badboy = -0.2
+	badboy = -0.3
 }
 
 peace = {
 	max_war_exhaustion = 50			#base max at peace.
+	#supply_consumption = -0.5
 	war_exhaustion = -1
-	badboy = -0.25
+	badboy = -0.3
 	mobilisation_economy_impact = 2.0
 }
 

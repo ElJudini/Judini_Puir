@@ -1,7 +1,7 @@
 political_decisions = {
 
 	will_receive = {
-		picture = grant
+		picture = loan
 		alert = no
 		potential = {
 			ai = no
@@ -13,30 +13,14 @@ political_decisions = {
 			ai = no
 			}
 		effect = {
-			country_event = {id = 100000 days = 0}
+			country_event = {id = 100000 days = 1}
 
 		}
 
 	}
 
-#	will_not_receive = {
-#		alert = no
-#		potential = {
-#			ai = no
-#			has_country_flag = will_receive_grants
-#			}
-#		
-#		allow = { 
-#			has_country_flag = will_receive_grants
-#			}
-#		effect = {
-#			clr_country_flag = will_receive_grants 
-#
-#		}
-#
-#	}
-
 	will_give = {
+		picture = loan
 		alert = no
 		potential = {
 			ai = no
@@ -51,6 +35,7 @@ political_decisions = {
 
 
 	will_not_give = {
+		picture = loan
 		alert = no
 		potential = {
 			ai = no

@@ -121,9 +121,9 @@ economy = {
 	RGO_SUPPLY_DEMAND_FACTOR_FIRE = 0.2,		-- how fast pops are Fired when there is a low demand
 	EMPLOYMENT_HIRE_LOWEST = 0.005,				-- we Hire pops no slower then x% of total required per day
 	EMPLOYMENT_FIRE_LOWEST = 0.005,				-- we Fire pops no slower then x% of total required per day
-	TRADE_CAP_LOW_LIMIT_LAND = 0.25, 				-- the lowest % the slider can go for land units
-	TRADE_CAP_LOW_LIMIT_NAVAL = 0.25, 			-- the lowest % the slider can go for naval units
-	TRADE_CAP_LOW_LIMIT_CONSTRUCTIONS = 0.25, 		-- the lowest % the slider can go for constructions
+	TRADE_CAP_LOW_LIMIT_LAND = 0.1, 				-- the lowest % the slider can go for land units
+	TRADE_CAP_LOW_LIMIT_NAVAL = 0.4, 			-- the lowest % the slider can go for naval units
+	TRADE_CAP_LOW_LIMIT_CONSTRUCTIONS = 0.05, 		-- the lowest % the slider can go for constructions
 	FACTORY_PURCHASE_MIN_FACTOR = 0.90,			-- the lowest % of its daily needs a factory will purchase
 	FACTORY_PURCHASE_DRAWDOWN_FACTOR = 0.05		-- the % a factory will reduce its input purchases each day if it did not sell all its goods (also used for scaling up production if all goods are sold)
 },
@@ -133,8 +133,8 @@ military = {
 	REINFORCE_SPEED = 0.2,
 	COMBAT_DIFFICULTY_IMPACT = 0.2,
 	BASE_COMBAT_WIDTH = 30,
-	POP_MIN_SIZE_FOR_REGIMENT = 5000,
-	POP_SIZE_PER_REGIMENT = 5000,
+	POP_MIN_SIZE_FOR_REGIMENT = 1000,
+	POP_SIZE_PER_REGIMENT = 3000,
 	SOLDIER_TO_POP_DAMAGE = 0.25,
 	LAND_SPEED_MODIFIER = 1,
 	NAVAL_SPEED_MODIFIER = 2,
@@ -146,11 +146,11 @@ military = {
 	POP_MIN_SIZE_FOR_REGIMENT_NONCORE_MULTIPLIER = 1, -- VALUE * POP_MIN_SIZE_FOR_REGIMENT is min for noncores
 	GAS_ATTACK_MODIFIER = 3,
 	COMBATLOSS_WAR_EXHAUSTION = 12, -- base war exhastion in combat
-	LEADER_MAX_RANDOM_PRESTIGE = 0, -- max percent of prestige, when randomizing stats for leaders.
+	LEADER_MAX_RANDOM_PRESTIGE = 0.05, -- max percent of prestige, when randomizing stats for leaders.
 	LEADER_AGE_DEATH_FACTOR = 4, -- higher value means leaders live longer
 	LEADER_PRESTIGE_TO_MORALE_FACTOR = 1, -- f.ex. 100% of prestige = +10% morale
 	LEADER_PRESTIGE_TO_MAX_ORG_FACTOR = 1, -- f.ex. 100% of prestige = +10 max org
-	LEADER_TRANSFER_PENALTY_ON_COUNTRY_PRESTIGE = 0, -- country prestige penalty on unassign leader (f.ex if leader has 100% prestige, the country loose 4% of its prestige)
+	LEADER_TRANSFER_PENALTY_ON_COUNTRY_PRESTIGE = 0.05, -- country prestige penalty on unassign leader (f.ex if leader has 100% prestige, the country loose 4% of its prestige)
 	LEADER_PRESTIGE_LAND_GAIN =0.3, -- extra speed gain on prestige for land combat
 	LEADER_PRESTIGE_NAVAL_GAIN =0.3, -- extra speed gain on prestige for naval combat
 	NAVAL_COMBAT_SEEKING_CHANCE = 0.5, -- base chance of picking a target (increased by leader reconaissance)

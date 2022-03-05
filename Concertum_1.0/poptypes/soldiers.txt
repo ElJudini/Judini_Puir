@@ -1,6 +1,5 @@
 sprite = 7
 color = { 200 187 157 }
-state_capital_only = yes
 strata = poor
 
 can_be_recruited = yes

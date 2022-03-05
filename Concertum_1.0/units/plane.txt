@@ -10,14 +10,14 @@ plane = {
 	
 	#Core Abilities
 	priority = 45
-	max_strength = 5
+	max_strength = 3
 	default_organisation = 30
 	maximum_speed = 5.00
 	weighted_value = 10.0
 
 
 	#Building Costs
-	build_time = 10
+	build_time = 120
 	build_cost = {
 		aeroplanes = 10 #10
 		small_arms = 20 #10
