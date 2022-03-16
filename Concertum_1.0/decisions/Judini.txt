@@ -123,4 +123,42 @@ political_decisions = {
 		}
 	}
 	
+	create_supply_depot = {
+		picture = supply_depot
+		alert = no
+		potential = {
+			NOT = { any_owned_province = { has_province_modifier = supply_depot } }
+			ai = no
+		}
+		allow = {
+			ai = no
+		}
+
+		effect = {
+			random_owned = {
+				limit = { is_capital = yes }
+				add_province_modifier = { name = supply_depot duration = -1 }
+			}
+		}
+	}
+		
+	dismantle_supply_depot = {
+		picture = supply_depot
+		alert = no
+		potential = {
+			any_owned_province = { has_province_modifier = supply_depot }
+			ai = no
+		}
+		
+		allow = {
+			ai = no
+		}
+
+		effect = {
+			any_owned = {
+				limit = { has_province_modifier = supply_depot }
+				remove_province_modifier = supply_depot
+			}
+		}
+	}
 }

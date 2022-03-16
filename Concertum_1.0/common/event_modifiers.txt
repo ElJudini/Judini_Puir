@@ -1214,3 +1214,8 @@ prestige = -50
 buff1 = {
 global_population_growth = 1
 }
+
+supply_depot = {
+	max_attrition = -100
+	icon = 17
+}
