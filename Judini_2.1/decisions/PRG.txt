@@ -1,0 +1,22 @@
+poltical_decisions = { 
+	establish_La_Guardia_Regional = { 
+        potential = {
+            tag = PRG
+            prestige = 1
+        }
+        allow = {
+			NOT = {
+				has_country_flag = establish_La_Guardia_Regional
+			}
+		}
+		effect = {
+			Money = 1000000
+			prestige = 10
+			add_country_modifier = {
+				name = La_Guardia_Regional
+				duration = -1
+			}
+            set_country_flag = establish_La_Guardia_Regional
+        }
+    }
+}
