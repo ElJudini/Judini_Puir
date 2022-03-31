@@ -1,5 +1,6 @@
-owner = ECU
-controller = ECU
+owner = PBC
+controller = PBC
+add_core = PBC
 add_core = ECU
 add_core = PEU
 add_core = GCO

@@ -1,5 +1,7 @@
-owner = PEU
-controller = PEU
+owner = PBC
+controller = PBC
+add_core = PBC
+add_core = BOL
 add_core = PEU
 add_core = CHL
 trade_goods = sulphur 

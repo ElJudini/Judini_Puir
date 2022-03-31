@@ -1,9 +1,7 @@
-name = "War of Confederation"
+name = "War of The Confederation"
 
 1836.1.1 = {
-	add_attacker = BOL
-	add_defender = PEU
-	add_defender = ARG
+	add_attacker = PBC
 	add_defender = CHL
 	
 	# actor
@@ -12,19 +10,14 @@ name = "War of Confederation"
 	# country - 3rd party
 	# state_province_id - target state capital
 	war_goal = {
-		casus_belli = conquest
-		actor = BOL
-		receiver = PEU
+		casus_belli = status_quo
+		actor = PBC
+		receiver = CHL
 	}
 	war_goal = {
 		casus_belli = status_quo
-		actor = PEU
+		actor = CHL
 		receiver = BOL
 	}
 
-}
-
-1841.1.1 = {
-	rem_attacker = PEU
-	rem_defender = BOL
 }
