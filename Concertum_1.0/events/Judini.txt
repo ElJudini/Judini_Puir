@@ -1,6 +1,6 @@
 country_event = {
 	
-	id = 9999999
+	id = 111001
 	title = "Iberian Unification"
 	desc = "Portugal is done for"
 	picture = "treaty"
@@ -54,7 +54,7 @@ country_event = {
 
 country_event = {
 
-	id = 99999991
+	id = 111002
 	title = "Russian Demographic Explosion"
 	desc = "POP buff for russia"
 	picture = "treaty"
@@ -75,7 +75,7 @@ country_event = {
 
 country_event = {
 
-	id = 99999992
+	id = 111003
 	title = "South African Demographic Explosion"
 	desc = "POP buff for SA"
 	picture = "treaty"
@@ -95,7 +95,7 @@ country_event = {
 }
 
 country_event = {
-	id = 9999999
+	id = 111004
 	allow_multiple_instances = no
 	trigger = {
 		date = 1836.01.01

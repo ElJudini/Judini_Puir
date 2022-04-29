@@ -18,8 +18,10 @@ establish_la_guardia_civil = {
 
 	}
 	effect = {
-	add_accepted_culture = portuguese
-	country_event = { id = 9999999 days = 0}
+		add_accepted_culture = portuguese
+		country_event = {
+			id = 111001 days = 1
+		}
 		add_country_modifier = {
 			name = la_guardia_civil
 			duration = -1

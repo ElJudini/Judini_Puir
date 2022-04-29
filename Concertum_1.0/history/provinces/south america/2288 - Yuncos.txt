@@ -1,8 +1,6 @@
-owner = PBC
-controller = PBC
-add_core = PBC
-add_core = ECU
-add_core = PEU
+owner = ECU
+controller = ECU
 add_core = GCO
+add_core = ECU
 trade_goods = wool
 life_rating = 30

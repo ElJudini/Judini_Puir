@@ -1,0 +1,46 @@
+political_decisions = {
+
+	enable_GM_punish = {
+		potential = {
+			tag = LCT
+			NOT = {
+				has_country_flag = GM_punish
+			}
+		}
+		allow = {
+			ai = no
+		}
+		effect = {
+			set_country_flag = GM_punish
+		}
+	}
+	
+	disable_GM_punish = {
+		potential = {
+			has_country_flag = GM_punish
+		}
+		allow = {
+			ai = no
+		}
+		effect = {
+			clr_country_flag = GM_punish
+		}
+	}
+
+	GM_punish_template = {
+		potential = {
+			tag = LCT
+			has_country_flag = GM_punish
+		}
+		allow = {
+			ai = no
+		}
+		effect = {
+			any_country = {
+				limit = {
+					tag = LCT
+				}
+			prestige_factor = -0.10
+			}
+		}
+		
