@@ -1,11 +1,11 @@
 political_decisions = {
 
-	uk_integration = {
+	uk_integration_AST = {
 		potential = {
 			tag = ENG
 			prestige = 1
 			NOT = {
-				has_country_flag = uk_unida
+				has_country_flag = uk_unida_AST
 			}
 		}
 
@@ -15,21 +15,72 @@ political_decisions = {
 		}
 
 		effect = {
-			set_country_flag = uk_unida
+			set_country_flag = uk_unida_AST
 			any_owned = {
 				limit  = {
 					tag = AST
-					tag = SAF
-					tag = CAN
 				}
 				add_core = ENG
 			}
 			inherit = AST
+
+		}
+	}
+
+	uk_integration_SAF = {
+		potential = {
+			tag = ENG
+			prestige = 1
+			NOT = {
+				has_country_flag = uk_unida_SAF
+			}
+		}
+
+		allow = {
+			war = no
+			prestige = 1
+		}
+
+		effect = {
+			set_country_flag = uk_unida_SAF
+			any_owned = {
+				limit  = {
+					tag = SAF
+				}
+				add_core = ENG
+			}
 			inherit = SAF
+
+		}
+	}
+
+	uk_integration_CAN = {
+		potential = {
+			tag = ENG
+			prestige = 1
+			NOT = {
+				has_country_flag = uk_unida_CAN
+			}
+		}
+
+		allow = {
+			war = no
+			prestige = 1
+		}
+
+		effect = {
+			set_country_flag = uk_unida_CAN
+			any_owned = {
+				limit  = {
+					tag = CAN
+				}
+				add_core = ENG
+			}
 			inherit = CAN
 
 		}
 	}
+
 
 	musolini = {
 		potential = {

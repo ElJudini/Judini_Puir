@@ -15,26 +15,26 @@ cuirassier = {
 	
 	#Core Abilities
 	priority = 30
-	max_strength = 5
+	max_strength = 3
 	default_organisation = 30
 	maximum_speed = 5.00
 	weighted_value = 8.0
 
 
 	#Building Costs
-	build_time = 15
+	build_time = 120
 	build_cost = {
-		small_arms = 130
-		canned_food = 20
-		steel = 35
+		small_arms = 75 #10
+		canned_food = 10
+		steel = 20
 	}
 	
 	supply_consumption = 1.0
-	supply_cost = {
-		small_arms = 0.03
-		ammunition = 0.18
-		canned_food = 0.15
-		grain = 0.20
+	supply_cost = {		   #total cost 1.93
+		small_arms = 0.016 #0.4
+		ammunition = 0.1  #0.5
+		canned_food = 0.07 #0.7
+		grain = 0.15       #0.33
 	}
 	
 
