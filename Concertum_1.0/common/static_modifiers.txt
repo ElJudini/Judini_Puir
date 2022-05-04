@@ -93,7 +93,7 @@ sea_zone = {
 
 land_province = {
 	max_attrition = 6			#Maximum Attrition is 5
-	supply_limit = 12
+	supply_limit = 6
 }
 
 blockaded =
@@ -107,7 +107,7 @@ blockaded =
 }
 
 no_adjacent_controlled = {
-	supply_limit = -5
+	supply_limit = -3
 }
 
 
@@ -139,7 +139,7 @@ infrastructure = {
 ##########################################################################
 
 base_values = {
-	supply_limit = 8
+	supply_limit = 5
 }
 
 war = {

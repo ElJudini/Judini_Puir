@@ -23,3 +23,18 @@ create_supply_depot_title;Create Supply Depot;;;;;;;;;;;;;x
 create_supply_depot_desc;Establish a Supply Depot in our capital;;;;;;;;;;;;;x
 dismantle_supply_depot_title;Dismantle Supply Depot;;;;;;;;;;;;;x
 dismantle_supply_depot_desc;Destroy the Depot!;;;;;;;;;;;;;x
+SAR;Sardinia;;;;;;;;;x;;;;
+BLA;Balkan Empire;;;;;;;;;x;;;;
+BLA_ADJ;Balkanese;;;;;;;;;x;;;;
+DUA;Dual Monarchy;;;;;;;;;x;;;;
+DUA_ADJ;Franco-English;;;;;;;;;x;;;;
+MSU;Roman Empire;;;;;;;;;x;;;;
+MSU_ADJ;Roman;;;;;;;;;x;;;;
+NGE;North America;;;;;;;;;x;;;;
+NGE_ADJ;North American;;;;;;;;;x;;;;
+SCR;Slavic Empire;;;;;;;;;x;;;;
+SCR_ADJ;Slavic;;;;;;;;;x;;;;
+SCV;Viking Empire;;;;;;;;;x;;;;
+SCV_ADJ;Viking;;;;;;;;;x;;;;
+SDU;SA Confederation;;;;;;;;;x;;;;
+SDU_ADJ;South-American;;;;;;;;;x;;;;
