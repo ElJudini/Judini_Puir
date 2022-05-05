@@ -1219,3 +1219,10 @@ supply_depot = {
 	max_attrition = -100
 	icon = 17
 }
+
+peruvian_nationalists = {
+	pop_militancy_modifier = 1.0
+	pop_consciousness_modifier = 0.5
+	icon = 18
+}
+

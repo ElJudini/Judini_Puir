@@ -1,8 +1,7 @@
 owner = PBC
 controller = PBC
 add_core = PBC
-add_core = BOL
-add_core = PEU
+add_core = SPE
 add_core = CHL
 trade_goods = sulphur 
 life_rating = 35

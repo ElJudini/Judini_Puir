@@ -38,3 +38,9 @@ SCV;Viking Empire;;;;;;;;;x;;;;
 SCV_ADJ;Viking;;;;;;;;;x;;;;
 SDU;SA Confederation;;;;;;;;;x;;;;
 SDU_ADJ;South-American;;;;;;;;;x;;;;
+SPE;South-Peru;;;;;;;;;x;;;;
+SPE_ADJ;Peruvian;;;;;;;;;x;;;;
+EVTNAME112001;The Peru-Bolivian Confederation?;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+EVTDESC112001;Our neighbors aren't happy with the formation of the Confederation, if we cave to Argentina we might buy time and appease the domestic situation, but it will be a heavy blow to our credibility. The existence of the Confederation itself it's on the line, we need to decide our course of action!;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+EVTOPTA112001;Cave to Argentina and Chile;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+EVTOPTB112001;Stand our ground!;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,

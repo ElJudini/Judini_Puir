@@ -1,6 +1,6 @@
 owner = PBC
 controller = PBC
 add_core = PBC
-add_core = PEU
+add_core = SPE
 trade_goods = fish
 life_rating = 35

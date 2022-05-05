@@ -1,0 +1,34 @@
+#Peru-Bolivia events
+country_event = {
+	
+	id = 112001 #The Confederation Question Peru-Bolivia
+	title = "EVTNAME112001"
+	desc = "EVTDESC112001"
+	picture = "carlists"
+	
+	trigger = {
+		tag = PBC
+		NOT = { has_country_flag = pbc_question }
+	}
+	option = {
+		name = "EVTOPTA112001"
+		set_country_flag = pbc_question
+		any_owned = {
+			limit = {
+				OR = {
+					is = 2290
+					is = 2295
+					is = 2298
+				}
+			}
+			add_province_modifier = {
+				name = peruvian_nationalists
+				duration = 365
+			}
+		}
+	}
+	option = {
+		name = "EVTOPTB112001"
+		set_country_flag = pbc_question
+	}
+}
