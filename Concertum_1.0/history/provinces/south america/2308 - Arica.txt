@@ -1,7 +1,5 @@
 owner = PBC
 controller = PBC
 add_core = PBC
-add_core = SPE
-add_core = CHL
 trade_goods = cattle
 life_rating = 35

@@ -1221,8 +1221,8 @@ supply_depot = {
 }
 
 peruvian_nationalists = {
-	pop_militancy_modifier = 1.0
-	pop_consciousness_modifier = 0.5
+	pop_militancy_modifier = 0.1
+	pop_consciousness_modifier = 0.05
 	icon = 18
 }
 

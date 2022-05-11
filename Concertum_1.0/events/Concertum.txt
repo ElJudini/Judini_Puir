@@ -10,25 +10,83 @@ country_event = {
 		tag = PBC
 		NOT = { has_country_flag = pbc_question }
 	}
+	
 	option = {
 		name = "EVTOPTA112001"
 		set_country_flag = pbc_question
+		prestige_factor = -0.1
 		any_owned = {
 			limit = {
-				OR = {
-					is = 2290
-					is = 2295
-					is = 2298
+				is_core = PEU
 				}
-			}
 			add_province_modifier = {
 				name = peruvian_nationalists
 				duration = 365
 			}
 		}
+		any_owned = {
+			limit = {
+				province_id = 2370
+				}
+			secede_province = ARG
+			remove_core = PBC
+		}
+		any_owned = {
+			limit = {
+				province_id = 2315
+				}
+			remove_core = ARG
+		}
+		any_owned = {
+			limit = {
+				OR = {
+					province_id = 2305
+					province_id = 2309
+				}
+			}
+			remove_core = PBC
+			secede_province = CHL
+		}
 	}
-	option = {
-		name = "EVTOPTB112001"
-		set_country_flag = pbc_question
+	
+#	option = {
+#		name = "EVTOPTB112001"
+#		set_country_flag = pbc_question
+#		set_global_flag = pbc_refusal
+#	}
+}
+
+#Italian Red Shirt Unification
+country_event = {
+	title = "112002"
+	desc = "EVTDESC112002"
+	picture = "Celebration"
+
+	id = 112002
+
+	trigger = {
+		tag = SAR
+		year = 1841
 	}
+
+	option = {				# Accept inheritance
+		name = "EVTOPTA112002"
+		change_tag = culture
+		add_accepted_culture = north_italian
+		add_accepted_culture = south_italian
+		any_country = {
+			limit = {
+				NOT = {
+					tag = THIS
+				}
+				is_culture_group = THIS
+				is_greater_power = no
+				num_of_cities = 1
+			}
+			country_event = { id=11101 days=0 }
+		}
+		prestige = 10
+
+	}
+
 }
