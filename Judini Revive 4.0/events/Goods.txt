@@ -79,7 +79,7 @@ province_event = {
 
 	option = {
 		name = "EVTOPTA1100"
-		trade_goods = precious_metal
+		#trade_goods = precious_metal
 		# life_rating = 5
 	}
 }
@@ -105,7 +105,7 @@ province_event = {
 
 	option = {
 		name = "EVTOPTA1100"
-		trade_goods = precious_metal
+		#trade_goods = precious_metal
 		# life_rating = 5
 	}
 }
@@ -130,7 +130,7 @@ province_event = {
 
 	option = {
 		name = "EVTOPTA1100"
-		trade_goods = precious_metal
+		#trade_goods = precious_metal
 		# life_rating = 5
 	}
 }
@@ -143,7 +143,7 @@ province_event = {
 		year = 1886
 		province_id = 2106
 		NOT = {
-			trade_goods = precious_metal
+			#trade_goods = precious_metal
 		}
 	}
 	
@@ -156,7 +156,7 @@ province_event = {
 	
 	option = {
 		name = "EVTOPTA1139"
-		trade_goods = precious_metal
+		#trade_goods = precious_metal
 		add_province_modifier = {
 			name = gold_rush
 			duration = 5475
@@ -196,7 +196,7 @@ country_event = {
 	option  ={
 		name = "EVTOPTA1140"
 		122 = {
-			trade_goods = precious_metal
+			#trade_goods = precious_metal
 			add_province_modifier = {
 				name = gold_rush
 				duration = 3650
@@ -225,7 +225,7 @@ province_event = {
 
 	option = {
 		name = "EVTOPTA1105"
-		trade_goods = precious_metal
+		#trade_goods = precious_metal
 	}
 }
 
@@ -255,7 +255,7 @@ province_event = {
 
 	option = {
 		name = "EVTOPTA1100"
-		trade_goods = precious_metal
+		#trade_goods = precious_metal
 		# life_rating = 5
 	}
 }
@@ -281,7 +281,7 @@ province_event = {
 
 	option = {
 		name = "EVTOPTA1100"
-		trade_goods = precious_metal
+		#trade_goods = precious_metal
 		add_province_modifier = {
 				name = gold_rush
 				duration = 3650
@@ -310,7 +310,7 @@ province_event = {
 
 	option = {
 		name = "EVTOPTA1100"
-		trade_goods = precious_metal
+		#trade_goods = precious_metal
 		add_province_modifier = {
 				name = gold_rush
 				duration = 3650
@@ -341,7 +341,7 @@ province_event = {
 
 	option = {
 		name = "EVTOPTA1100"
-		trade_goods = precious_metal
+		#trade_goods = precious_metal
 		add_province_modifier = {
 			name = gold_rush
 			duration = 730
@@ -380,7 +380,7 @@ province_event = {
 
 	option = {
 		name = "EVTOPTA1105"
-		trade_goods = precious_metal
+		#trade_goods = precious_metal
 		# life_rating = 5
 	}
 }
@@ -408,7 +408,7 @@ province_event = {
 
 	option = {
 		name = "EVTOPTA1105"
-		trade_goods = precious_metal
+		#trade_goods = precious_metal
 		# life_rating = 5
 	}
 }
@@ -433,7 +433,7 @@ province_event = {
 
 	option = {
 		name = "EVTOPTA1105"
-		trade_goods = precious_metal
+		#trade_goods = precious_metal
 		life_rating = 15
 	}
 }

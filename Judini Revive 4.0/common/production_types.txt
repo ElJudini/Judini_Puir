@@ -1,6 +1,26 @@
 
 ### Factories #####################################################################################
 
+
+RGO_template_bankers = {
+	owner =
+	{
+		poptype = aristocrats
+		effect = output
+	}
+		
+	employees = {
+		{ 
+			poptype = bankers
+			effect = throughput
+			amount = 1
+		}
+	}
+	
+	type = rgo
+	workforce = 400000
+}
+
 factory_template = {
 	efficiency = {
 		cement = 0.5 #if no cement, work at 75% efficiency #cost = 16.0
@@ -32,7 +52,14 @@ factory_template = {
 	type = factory
 	workforce = 10000 
 }
-
+world_bank_factory = {       
+	template = world_bank_template
+	input_goods = {
+		precious_metal = 0.01
+	}
+	output_goods = precious_metal
+	value = 100
+}
 cheap_factory_template = {
 	efficiency = {
 		cement = 0.25 #if no cement, work at 75% efficiency #cost = £4/level
@@ -973,10 +1000,11 @@ orchard = {
 	farm = yes
 }
 
+
 precious_metal_mine = {
-	template = RGO_template_labourers
+	template = RGO_template_bankers
 	output_goods = precious_metal 
-	value = 2
+	value = 10000
 	mine = yes
 }
 

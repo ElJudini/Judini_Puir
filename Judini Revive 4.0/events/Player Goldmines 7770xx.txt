@@ -20,7 +20,7 @@ country_event = {
 
 	option = {
 		name = "EVTOPTA1100"
-		464 = { trade_goods = precious_metal }
+		#464 = { trade_goods = precious_metal }
 	}
 }
 
@@ -46,7 +46,7 @@ country_event = {
 
 	option = {
 		name = "EVTOPTA1100"
-		478 = { trade_goods = precious_metal }
+		#478 = { trade_goods = precious_metal }
 	}
 }
 
@@ -72,7 +72,7 @@ country_event = {
 
 	option = {
 		name = "EVTOPTA1100"
-		524 = { trade_goods = precious_metal }
+		#524 = { trade_goods = precious_metal }
 	}
 }
 
@@ -98,7 +98,7 @@ country_event = {
 
 	option = {
 		name = "EVTOPTA1100"
-		397 = { trade_goods = precious_metal }
+		#397 = { trade_goods = precious_metal }
 	}
 }
 
@@ -124,7 +124,7 @@ country_event = {
 
 	option = {
 		name = "EVTOPTA1100"
-		380 = { trade_goods = precious_metal }
+		#380 = { trade_goods = precious_metal }
 	}
 }
 
@@ -150,7 +150,7 @@ country_event = {
 
 	option = {
 		name = "EVTOPTA1100"
-		256 = { trade_goods = precious_metal }
+		#256 = { trade_goods = precious_metal }
 	}
 }
 
@@ -176,7 +176,7 @@ country_event = {
 
 	option = {
 		name = "EVTOPTA1100"
-		611 = { trade_goods = precious_metal }
+		#611 = { trade_goods = precious_metal }
 	}
 }
 
@@ -202,7 +202,7 @@ country_event = {
 
 	option = {
 		name = "EVTOPTA1100"
-		318 = { trade_goods = precious_metal }
+		#318 = { trade_goods = precious_metal }
 	}
 }
 
@@ -228,7 +228,7 @@ country_event = {
 
 	option = {
 		name = "EVTOPTA1100"
-		797 = { trade_goods = precious_metal }
+		#797 = { trade_goods = precious_metal }
 	}
 }
 
@@ -254,7 +254,7 @@ country_event = {
 
 	option = {
 		name = "EVTOPTA1100"
-		669 = { trade_goods = precious_metal }
+		#669 = { trade_goods = precious_metal }
 	}
 }
 
@@ -280,7 +280,7 @@ country_event = {
 
 	option = {
 		name = "EVTOPTA1100"
-		671 = { trade_goods = precious_metal }
+		#671 = { trade_goods = precious_metal }
 	}
 }
 
@@ -306,7 +306,7 @@ country_event = {
 
 	option = {
 		name = "EVTOPTA1100"
-		841 = { trade_goods = precious_metal }
+		#841 = { trade_goods = precious_metal }
 	}
 }
 
@@ -332,7 +332,7 @@ country_event = {
 
 	option = {
 		name = "EVTOPTA1100"
-		868 = { trade_goods = precious_metal }
+		#868 = { trade_goods = precious_metal }
 	}
 }
 
@@ -358,7 +358,7 @@ country_event = {
 
 	option = {
 		name = "EVTOPTA1100"
-		1768 = { trade_goods = precious_metal }
+		#1768 = { trade_goods = precious_metal }
 	}
 }
 
@@ -384,7 +384,7 @@ country_event = {
 
 	option = {
 		name = "EVTOPTA1100"
-		1143 = { trade_goods = precious_metal }
+		#1143 = { trade_goods = precious_metal }
 	}
 }
 
@@ -410,7 +410,7 @@ country_event = {
 
 	option = {
 		name = "EVTOPTA1100"
-		993 = { trade_goods = precious_metal }
+		#993 = { trade_goods = precious_metal }
 	}
 }
 
@@ -436,7 +436,7 @@ country_event = {
 
 	option = {
 		name = "EVTOPTA1100"
-		2427 = { trade_goods = precious_metal }
+		#2427 = { trade_goods = precious_metal }
 	}
 }
 
@@ -462,7 +462,7 @@ country_event = {
 
 	option = {
 		name = "EVTOPTA1100"
-		2257 = { trade_goods = precious_metal }
+		#2257 = { trade_goods = precious_metal }
 	}
 }
 
@@ -488,6 +488,6 @@ country_event = {
 
 	option = {
 		name = "EVTOPTA1100"
-		2214 = { trade_goods = precious_metal }
+		#2214 = { trade_goods = precious_metal }
 	}
 }

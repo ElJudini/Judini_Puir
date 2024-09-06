@@ -4,6 +4,44 @@
 
 ##### Apocalypse 1836 #####
 
+youre_kicked_mate = {
+	icon = 19
+}
+
+kinda_bad_badboy = {
+	loan_interest = 4
+	tariff_efficiency_modifier = -0.40
+	mobilisation_economy_impact = 2
+	diplomatic_points_modifier = -0.6
+	factory_owner_cost = 1
+	global_immigrant_attract = -4.0
+	org_regain = -0.3
+	land_organisation = -0.3
+	naval_organisation = -0.3
+	factory_throughput = -0.6
+	RGO_throughput = -0.6
+	prestige = -0.2
+	war_exhaustion = 2
+	research_points_modifier = -0.6
+	cb_generation_speed_modifier = -0.3
+	icon = 8
+}
+
+ghost_rp_nerf = {
+	diplomatic_points_modifier = -1000.0
+	global_pop_militancy_modifier = -100.0
+	research_points_modifier = -1
+	prestige = -10
+	icon = 10
+}
+
+world_bank_rp_nerf = {
+	global_pop_militancy_modifier = -100.0
+	research_points_modifier = -1
+	prestige = -10
+	icon = 10
+}
+
 state_of_emergency = {
 	mobilisation_size = 0.05
 	land_organisation = 0.05
