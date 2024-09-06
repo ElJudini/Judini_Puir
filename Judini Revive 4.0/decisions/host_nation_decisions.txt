@@ -8,8 +8,8 @@ political_decisions = {
 			has_country_flag = host_nation
 			tag = LCT
 			ai = no
-			NOT = { has_global_flag = total_war_cbs_enabled }
-			has_global_flag = total_war_cb_safety_off
+			#NOT = { has_global_flag = total_war_cbs_enabled }
+			#has_global_flag = total_war_cb_safety_off
 		}
 		allow = { 
 			tag = LCT
