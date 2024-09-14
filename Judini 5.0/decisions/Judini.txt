@@ -1,4 +1,118 @@
 political_decisions = {
+
+#España
+ #Camino america abre mas decisiones para enexar virreinatos de forma separada
+spa_am = {
+	potential = {
+		ai = no
+		tag = SPA
+		not = { has_country_flag = spa_am }
+		not = {	has_country_flag = spa_eu }
+
+	}
+
+	allow = {
+		war = no
+	}
+	effect = {
+		set_country_flag = spa_am
+	}
+
+}
+
+spa_am_mex = {
+	potential = {
+		ai = no
+		tag = SPA
+		has = { has_country_flag = spa_am }
+		not = { has_country_flag = spa_am_mex }
+	}
+
+	allow = {
+		war = no
+		owns = 2172
+		owns = 2183
+		owns = 2162
+		owns = 2168
+	}
+
+	effect = {
+		set_country_flag = spa_am_mex
+		any_country = {
+			limit = {
+				tag = MEX 
+			}
+		annex_to = THIS
+		}
+		any_owned = {
+		limit = {
+			continent = south_america
+		}
+		add_core = THIS
+	}
+
+	}
+
+
+
+
+}
+
+spa_eu = {
+	potential = {
+		ai = no
+		tag = SPA
+		not = { has_country_flag = spa_am }
+		not = {	has_country_flag = spa_eu }
+
+	}
+
+	allow = {
+		war = no
+	}
+	effect = {
+		set_country_flag = spa_eu
+		add_accepted_culture = portuguese
+		518 = {
+			add_core = SPA
+		}
+		519 = {
+			add_core = SPA
+		}
+		520 = {
+			add_core = SPA
+		}
+		521 = {
+			add_core = SPA
+		}
+		522 = {
+			add_core = SPA
+		}
+		523 = {
+			add_core = SPA
+		}
+		524 = {
+			add_core = SPA
+		}
+		525 = {
+			add_core = SPA
+		}
+		526 = {
+			add_core = SPA
+		}
+		527 = {
+			add_core = SPA
+		}
+		2135 = {
+			add_core = SPA
+		}
+		2134 = {
+			add_core = SPA
+		}
+	}
+
+}
+
 #Holland
 
 c1_eu = {
@@ -132,7 +246,7 @@ otto_eu = {
 	potential = {
 		tag = TUR
 		NOT = { has_country_flag = otto_eu }
-		not = { has_contry_flag = otto_as }
+		not = { has_country_flag = otto_as }
 	}
 	allow = {
 		war = no
@@ -157,7 +271,7 @@ otto_as = {
 	potential = {
 		tag = TUR
 		NOT = { has_country_flag = otto_eu }
-		not = { has_contry_flag = otto_as }
+		not = { has_country_flag = otto_as }
 	}
 	allow = {
 		war = no
