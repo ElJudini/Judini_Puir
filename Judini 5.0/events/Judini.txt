@@ -1,0 +1,22 @@
+country_event = {
+	id = 9999999
+	allow_multiple_instances = no
+	trigger = {
+		date = 1836.01.01
+		ai = no
+		not = { has_country_flag = stonks }
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	title = "Monetary Injection"
+	desc = "Inflation is a myth"
+	immediate = {
+		money = 1000000
+		set_country_flag = stonks
+	}
+	option = {
+		name = "OK"
+	}
+}
+

@@ -1,8 +1,0 @@
-owner = CAN
-
-controller = CAN
-
-add_core = CAN
-add_core = RPL
-trade_goods = coal
-life_rating = 35
