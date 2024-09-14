@@ -20,3 +20,31 @@ country_event = {
 	}
 }
 
+country_event = {
+	id = 999999999
+	allow_multiple_instances = no
+	is_triggered_only = yes
+	mean_time_to_happen = {
+		days = 1
+	}
+	title = "Caminos de España"
+	desc = "A: Restaurar el Imperio Español B: Iberia"
+	#immediate = {
+	#	set_country_flag = stonks
+	#}
+	option = {
+		
+		name = "Imperio Español"
+		SPA = {
+		set_country_flag = spa_am
+		}
+		
+	}
+	option = {
+		SPA = {
+		set_country_flag = spa_eu
+		}
+		name = "Iberia"
+		
+	}
+}
