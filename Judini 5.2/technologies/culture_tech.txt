@@ -269,7 +269,7 @@ analytic_philosophy = {
 	year = 1870
 	cost = 14400
 
-	increase_research = 0.100
+	increase_research = 1
 	ai_chance = {
 		factor = 200
 		modifier = {
@@ -291,7 +291,7 @@ phenomenology_n_hermeneutic = {
 	year = 1880
 	cost = 18000
 
-	increase_research = 0.100
+	increase_research = 1
 	ai_chance = {
 		factor = 200
 		modifier = {
@@ -313,7 +313,7 @@ anti__rationalism = {
 	year = 1900
 	cost = 21600
 
-	increase_research = 0.15
+	increase_research = 1.5
 	ai_chance = {
 		factor = 10
 		modifier = {
