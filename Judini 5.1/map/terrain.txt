@@ -25,7 +25,7 @@ categories =  {
 		farm_rgo_eff = 0.0
 		mine_rgo_size = 0.0
 		mine_rgo_eff = 0.0
-		supply_limit = 10
+		supply_limit = 15
 	}
 
 	plains = {
@@ -35,7 +35,7 @@ categories =  {
 		farm_rgo_eff = 0.0
 		mine_rgo_size = 0.0
 		mine_rgo_eff = 0.0
-		supply_limit = 10
+		supply_limit = 15
 
 	}
 
@@ -46,7 +46,7 @@ categories =  {
 		farm_rgo_eff = 0.0
 		mine_rgo_size = 0.0
 		mine_rgo_eff = 0.0
-		supply_limit = 8
+		supply_limit = 13
 
 	}
 
@@ -58,7 +58,7 @@ categories =  {
 		farm_rgo_eff = 0.0
 		mine_rgo_size = 0.0
 		mine_rgo_eff = 0.0
-		supply_limit = 6
+		supply_limit = 11
 		combat_width = -0.20
 	}
 	
@@ -71,7 +71,7 @@ categories =  {
 		farm_rgo_eff = 0.0
 		mine_rgo_size = 0.0
 		mine_rgo_eff = 0.0
-		supply_limit = 6
+		supply_limit = 11
 		combat_width = -0.20
 	}
 
@@ -85,7 +85,7 @@ categories =  {
 		mine_rgo_size = 0.0
 		mine_rgo_eff = 0.0
 
-		supply_limit = 4
+		supply_limit = 9
 		combat_width = -0.20
 	}
 
@@ -97,7 +97,7 @@ categories =  {
 		farm_rgo_eff = -0.2
 		mine_rgo_size = 0.0
 		mine_rgo_eff = -0.2
-		supply_limit = 2
+		supply_limit = 7
 		combat_width = -0.25
 	}
 
@@ -110,7 +110,7 @@ categories =  {
 		farm_rgo_eff = 0.0
 		mine_rgo_size = 0.0
 		mine_rgo_eff = 0.0
-		supply_limit = 6
+		supply_limit = 11
 		combat_width = -0.33
 	}
 
@@ -124,7 +124,7 @@ categories =  {
 		mine_rgo_size = 0.0
 		mine_rgo_eff = 0.0
 
-		supply_limit = 4
+		supply_limit = 9
 		combat_width = -0.33
 	}
 	
@@ -136,7 +136,7 @@ categories =  {
 		farm_rgo_eff = -0.25
 		mine_rgo_size = 0.0
 		mine_rgo_eff = 0.0
-		supply_limit = 2
+		supply_limit = 7
 		
 		combat_width = -0.66
 		
@@ -151,7 +151,7 @@ categories =  {
 		mine_rgo_size = 0.0
 		mine_rgo_eff = 0.0
 
-		supply_limit = 3
+		supply_limit = 8
 	}
 	
 	desert = {
@@ -171,7 +171,7 @@ categories =  {
 		farm_rgo_eff = 0.0
 		mine_rgo_size = 0.0
 		mine_rgo_eff = 0.0
-		supply_limit = 2
+		supply_limit = 7
 	}	
 
 	marsh = {
@@ -183,7 +183,7 @@ categories =  {
 		farm_rgo_eff = -0.2
 		mine_rgo_size = 0.0
 		mine_rgo_eff = -0.2
-		supply_limit = 2
+		supply_limit = 7
 		combat_width = -0.25
 	}
 }

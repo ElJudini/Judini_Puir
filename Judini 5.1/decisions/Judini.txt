@@ -619,18 +619,19 @@ spa_eu = {
 c1_eu = {
 	potential = {
 		ai = no
-		tag = NED
-		not = { has_country_flag = c1_eu }
-		not = {	has_country_flag = c3_as }
-		not = { has_country_flag = c2_eu }
+		tag = NET
+		NOT = { has_country_flag = c1_eu }
+		NOT = {	has_country_flag = c3_as }
+		NOT = { has_country_flag = c2_eu }
 	}
 
 	allow = {
 		revolution_n_counterrevolution = 1
 	}
 	effect = {
+		badboy = 20
 		set_country_flag = c1_eu 
-		add_accepted_culture = fench
+		add_accepted_culture = french
 	}
 
 }
@@ -638,10 +639,10 @@ c1_eu = {
 c2_eu = {
 	potential = {
 		ai = no
-		tag = NED
-		not = { has_country_flag = c1_eu }
-		not = {	has_country_flag = c3_as }
-		not = { has_country_flag = c2_eu }
+		tag = NET
+		NOT = { has_country_flag = c1_eu }
+		NOT = {	has_country_flag = c3_as }
+		NOT = { has_country_flag = c2_eu }
 	}
 
 	allow = {
@@ -649,6 +650,7 @@ c2_eu = {
 	}
 	effect = {
 		set_country_flag = c2_eu 
+		badboy = 20
 		add_accepted_culture = north_german
 	}
 
@@ -657,10 +659,10 @@ c2_eu = {
 c3_as = {
 	potential = {
 		ai = no
-		tag = NED
-		not = { has_country_flag = c1_eu }
-		not = {	has_country_flag = c3_as }
-		not = { has_country_flag = c2_eu }
+		tag = NET
+		NOT = { has_country_flag = c1_eu }
+		NOT = {	has_country_flag = c3_as }
+		NOT = { has_country_flag = c2_eu }
 	}
 
 	allow = {
@@ -672,6 +674,7 @@ c3_as = {
 	}
 	effect = {
 		set_country_flag = c3_as
+		badboy = 25
 		add_accepted_culture = filipino
 		add_accepted_culture = malay
 		add_accepted_culture = javan
@@ -679,6 +682,149 @@ c3_as = {
 		add_accepted_culture = melanesian
 	}
 
+}
+
+procaim_the_COP = {
+	picture = dreams_of_empire
+	potential = {
+		tag = JAP
+		NOT = { has_country_flag = COP }
+		#NOT = { accepted_culture = manchu }
+	}
+
+	allow = {
+		war = no
+		prestige = 20
+	}
+
+	effect = {
+		badboy = 15
+		set_country_flag = COP
+		#add_accepted_culture = korean
+		#add_country_modifier = {
+		#	name = HH2
+		#	duration = 18250
+		#}
+
+		  KOR_1624 = {
+			add_core = JAP
+		}
+
+		KOR_1635 = {
+			add_core = JAP
+
+		}
+		KOR_1627 = {
+			add_core = JAP
+
+		}
+		KOR_1619 = {
+			add_core = JAP
+
+		}
+	}
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 0
+			is_greater_power = no
+		}
+	}
+}
+
+procaim_the_COP_1 = {
+	picture = dreams_of_empire
+	potential = {
+		tag = JAP
+		NOT = { has_country_flag = COP_1 }
+		has_country_flag = COP
+	}
+
+	allow = {
+		war = no
+		year = 1860
+	}
+
+	effect = {
+		badboy = 20
+		set_country_flag = COP_1
+		add_accepted_culture = korean
+	}
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 0
+			is_greater_power = no
+		}
+	}
+}
+
+procaim_the_COP_2 = {
+	picture = dreams_of_empire
+	potential = {
+		tag = JAP
+		NOT = { has_country_flag = COP_2 }
+		has_country_flag = COP
+	}
+
+	allow = {
+		war = no
+		mass_politics = 1
+	}
+
+	effect = {
+		badboy = 25
+		set_country_flag = COP_2
+		add_accepted_culture = manchu
+	}
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 0
+			is_greater_power = no
+		}
+	}
+}
+
+revive_mexican_empire = {
+	picture = dreams_of_empire
+	potential = {
+		tag = MEX
+		NOT = { has_country_flag = mex_1 }
+		
+	}
+
+	allow = {
+		war = no
+		owns = 2186
+	}
+
+	effect = {
+		set_country_flag = mex_1
+		prestige = 25
+		badboy = 15
+		add_accepted_culture = mayan
+		add_accepted_culture = central_american
+		any_country = {
+			limit = {
+				tag = UCA
+			}
+		annex_to = THIS
+		}
+		any_owned = {
+		limit = {
+			is_core = UCA
+		}
+		add_core = THIS
+		}
+	}
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 0
+			is_greater_power = no
+		}
+	}
 }
 
 # Persia
@@ -802,10 +948,11 @@ unificacion_cultural = {
 
  	allow = {
  	NOT = { has_country_flag = america_unida_established }
-	year = 1880
+	year = 1875
 	revolution_n_counterrevolution = 1
  	war = no
  	owns = 2348
+	owns = 2339
  	owns = 2447
  	owns = 2313
  	owns = 2247
@@ -882,13 +1029,11 @@ uk_integration = {
 
 musolini = {
 		potential = {
-			tag = ita
+			TAG = ITA
+			NOT = { has_country_flag = mus_unidos }
 		}
 
 		allow = {
-			NOT = {
-				has_country_flag = mus_unidos
-			}
 			war = no
 			owns = 1731
 			owns = 1852
@@ -898,12 +1043,13 @@ musolini = {
 			set_country_flag = mus_unidos
 			add_accepted_culture = bedouin
 			add_accepted_culture = maghrebi
+			add_accepted_culture = afro_asiatic
 			any_owned = {
 				add_core = MSU
 			}
 			change_tag = MSU
 		}
-	}
+}
 	
 	balcanes = {
 		potential = {

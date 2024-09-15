@@ -11,6 +11,20 @@ youre_kicked_mate = {
 	icon = 19
 }
 
+mex_1 = {
+	mobilisation_size = 0.015
+}
+
+mex_2 = {
+mobilisation_size = 0.045
+
+}
+
+PRG = {
+	mobilisation_size = 0.9
+	
+	}
+
 ### Rip from Zombie
 kinda_bad_badboy = {
 	loan_interest = 4

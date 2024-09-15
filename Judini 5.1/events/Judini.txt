@@ -1,0 +1,109 @@
+country_event = {
+	id = 9999999
+	allow_multiple_instances = no
+	trigger = {
+		date = 1836.01.01
+		ai = no
+		NOT = { has_country_flag = stonks }
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	title = "Monetary Injection"
+	desc = "Inflation is a myth"
+	immediate = {
+		money = 1000000
+		set_country_flag = stonks
+	}
+	option = {
+		name = "OK"
+	}
+}
+
+country_event = {
+	id = 99999991
+	allow_multiple_instances = no
+	trigger = {
+		TAG = MEX
+		date = 1836.01.01
+		ai = no
+		NOT = { has_country_flag = mex_2 }
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	title = "Revolucion de los Carteles"
+	desc = "Mucha arma mijo"
+	immediate = {
+		money = 250000
+		set_country_flag = mex_2
+		add_country_modifier = {
+			name = mex_1
+			duration = -1
+		}
+		add_country_modifier = {
+			name = mex_2
+			duration = 10950
+		}
+	}
+	option = {
+		name = "Lucharemos hasta el ultimo hombre"
+	}
+}
+
+country_event = {
+	id = 99999992
+	allow_multiple_instances = no
+	trigger = {
+		TAG = PRG
+		date = 1836.01.01
+		
+		NOT = { has_country_flag = PRG }
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	title = "Revolucion de los Carteles"
+	desc = "Mucha arma mijo"
+	immediate = {
+		money = 1250000
+		set_country_flag = PRG
+		add_country_modifier = {
+			name = PRG
+			duration = -1
+		}
+		
+	}
+	option = {
+		name = "Lucharemos hasta el ultimo hombre"
+	}
+}
+
+country_event = {
+	id = 999999999
+	allow_multiple_instances = no
+	is_triggered_only = yes
+	mean_time_to_happen = {
+		days = 1
+	}
+	title = "Caminos de España"
+	desc = "A: Restaurar el Imperio Español B: Iberia"
+	#immediate = {
+	#	set_country_flag = stonks
+	#}
+	option = {
+		
+		name = "Imperio Español"
+		SPA = {
+		set_country_flag = spa_am
+		}
+		
+	}
+	option = {
+		SPA = {
+		set_country_flag = spa_eu
+		}
+		name = "Iberia"
+		
+	}
+}
